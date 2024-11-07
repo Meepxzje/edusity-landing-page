@@ -1,0 +1,45 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
+    url("https://greatstack.in/assets/hero-wMB5D_Q0.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  max-width: 800px;
+}
+
+.hero-text h3 {
+    font-size: 6rem;
+    font-weight: 600;
+
+}
+
+.hero-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+    font-size: 1.6rem;
+}
+
+
+/* media */
+@media (max-width: 850px) {
+  .hero-text h3 {
+    font-size: 4rem;
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .hero-text p{
+    font-size: 1.4rem;
+    margin: 15px 0 30px;
+  }
+}
