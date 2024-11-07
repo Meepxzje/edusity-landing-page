@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeloy": "npm run build",
-    "deloy": "gh-pages -d build",
+    "deloy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
